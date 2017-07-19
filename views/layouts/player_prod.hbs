@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>Thirdy Party Tester</title>
+  <link rel="shortcut icon" href="/favicon.png" type="image/png">
+</head>
+<body>
+
+  <div data-component="layout" class="pos-relative overflow-hidden">
+    <iframe id="player" src="https://embed.vhx.tv/videos/175?api=1" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" frameborder="0" height="560" width="900"></iframe>
+  </div>
+
+  <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+  <!-- player repo -->
+  <script src="https://cdn.vhx.tv/assets/player.js"></script>
+
+  <!-- <script src="http://cdn.crystal.dev/assets/api.js"></script> -->
+  <script>
+    var videoPlayer = new VHX.Player('player');
+  </script>
+</body>
+</html>
